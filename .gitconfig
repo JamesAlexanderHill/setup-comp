@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = James Hill
+	email = james@jamesalexanderhill.com
+[core]
+	excludesfile = /Users/jameshill/.gitignore_global
+[init]
+	defaultBranch = main
