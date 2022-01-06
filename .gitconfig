@@ -5,7 +5,7 @@
 	required = true
 [user]
 	name = James Hill
-	email = james@jamesalexanderhill.com
+	email = info@jamesalexanderhill.com
 [core]
 	excludesfile = /Users/jameshill/.gitignore_global
 [init]
