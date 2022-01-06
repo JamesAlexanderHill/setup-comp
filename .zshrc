@@ -1,4 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
 
 ZSH_THEME="robbyrussell"
 plugins=(git docker github npm nvm brew)
